@@ -53,3 +53,7 @@ body, html {
     background-color: #0056b3;
     transform: scale(1.1);
 }
+.pref:hover {
+    background-color: #2a333d;
+    transform: scale(1.01);
+}
