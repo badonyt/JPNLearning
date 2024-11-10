@@ -14,6 +14,7 @@ function loadData() {
                 if(pref["type"] == "all"){
                     checkboxe.checked = true;
                 }
+                //other types
                 checkboxe.class = row["romaji"] + "id";
                 const label = document.createElement("label")
                 label.for = row["romaji"] + "id";
